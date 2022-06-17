@@ -7,8 +7,7 @@
     <title>RTPCR</title>
     <link rel="icon" type="image/png" href="images/pharmeasyfavicon.png">
     <style>
-                
-.font{
+  .font{
     font-family: 'Open Sans', sans-serif;
 }
 .spaceup
@@ -21,8 +20,8 @@
     position: sticky;
     top:0px;
     background-color: #10847e;
-    border:1px solid transparent;
-    z-index: 1;
+    border:1px solid transparent;  
+    z-index: 1;  
 }
 #upperNav{
     margin-top: 15px;
@@ -59,8 +58,10 @@ input{
     
 }
 #lowerNav>div:first-child>div{
-    padding:20px 15px 10px 20px
+    padding:20px 15px 10px 20px;
     /* border:1px solid red; */
+    margin: auto;
+
 }
 .highlight
 {
@@ -69,7 +70,6 @@ input{
     height:3px;
     margin: 0px;
     top:10px;
-    
     
 }
 
@@ -102,6 +102,8 @@ input{
 #login p,#login+div p{
     margin: auto;
 }
+
+
 #test{
     /* border: 1px solid red; */
     width: 100%;
@@ -468,44 +470,44 @@ input{
     </style>
 </head>
 <body>
-    <div id="navbar">            
-        <div id="upperNav">
+  <div id="navbar">            
+    <div id="upperNav">
+        <div>
+        <img src="images/navbarimg.png" alt="pharmeasyimage">
+        <input type="text">
+        </div>
+    </div>
+    <div id="lowerNav">
+        <div>
             <div>
-            <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt="pharmeasyimage">
-            <input type="text">
+                <p>Order Medicines</p> 
+                <div class="highlight"></div>
+            </div>
+            <div>Healthcare Products
+                <div class="highlight"></div>
+            </div>
+            <div>Lab Tests
+                <div class="highlight"></div>
+            </div>
+            <div>RTPCR
+                <div class="highlight"></div>
             </div>
         </div>
-        <div id="lowerNav">
-            <div>
-                <div>
-                    <p>Order Medicines</p> 
-                    <div></div>
-                </div>
-                <div>Healthcare Products
-                    <div class="highlight"></div>
-                </div>
-                <div>Lab Tests
-                    <div class="highlight"></div>
-                </div>
-                <div>RTPCR
-                    <div class="highlight"></div>
-                </div>
+        <div>
+            <div id="offer">
+                <img src="images/discount.png" alt="flaticon">
+                Offers</div>
+            <div id="login">
+                <img src="images/loginsignup.svg" alt="login/signup">
+                <p>Login/Signup</p>
             </div>
             <div>
-                <div id="offer">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt="">
-                    Offers</div>
-                <div id="login">
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="">
-                    <p>Login/Signup</p>
-                </div>
-                <div>
-                    <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt="">
-                    <p>Cart</p>
-                </div>
+                <img src="images/cart.svg" alt="">
+                <p>Cart</p>
             </div>
         </div>
     </div>
+</div>
     <div id="test">
         <h1>Test Details</h1>
        
